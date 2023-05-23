@@ -13,6 +13,20 @@ body {
 
 html {
     scroll-behavior: smooth;
+    width: fit-content;
+}
+
+@media screen and (max-width:408px) {
+    .text .code {
+        font-size: 45px;
+    }
+    .main-information {
+        text-align: center;
+       
+        background-color: #ffffff;
+        border-top: #000000 1px solid;
+        border-bottom: #000000 1px solid;
+    }
 }
 
 section {
@@ -414,11 +428,7 @@ label {
     font-weight: 900
 }
 
-@media screen and (max-width:408px) {
-    .text .code {
-        font-size: 45px;
-    }
-}
+
 
 .outlet {
     text-decoration: line-through;
@@ -466,7 +476,7 @@ label {
 .footer-contact {
     background-color: #181818;
     color: aliceblue;
-    height: 200px;
+  
 }
 
 .footer-contact-row i {
@@ -537,8 +547,7 @@ label {
 
 .main-information {
     text-align: center;
-    padding-right: 150px;
-    padding-left: 150px;
+    
     background-color: #ffffff;
     border-top: #000000 1px solid;
     border-bottom: #000000 1px solid;
@@ -987,7 +996,7 @@ label {
     input,
     label {
         margin: .4rem 0;
-        width: 200px;
+        width: 156px;
         border-radius: rgb(152, 152, 155) 30px;
         margin-left: 5px;
         margin-right: 5px;
